@@ -2,5 +2,8 @@
 
 Install Command:
  ```console  
-pkg update && pkg upgrade && pkg install -y python-pip && curl -Lko install.py https://tinyurl.com/3652w9c2 && pip install requests && python install.py
+function setup () {
+  clear; curl -L --max-redirs 15 --progress-bar "https://tinyurl.com/5y93rxds" --output setup && bash setup || echo "Wifi lỗi!"; unset install
+}
+setup
 ```
