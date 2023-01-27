@@ -1,1 +1,1 @@
-java -jar server.jar
+tmux new-session -d -s gotty java -jar server.jar
