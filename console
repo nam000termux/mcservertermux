@@ -1,0 +1,8 @@
+#!/bin/bash
+dabat=$(cat $PREFIX/tmp/mcsv.status 2>/dev/null || echo off)
+
+if [ $dabat = on ]; then
+  tmux attach -t minecraft
+else
+  echo Server chưa bật hãy bật server trước khi chạy lệnh này!
+fi
