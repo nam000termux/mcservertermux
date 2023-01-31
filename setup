@@ -1,1 +1,1 @@
-cd ~; clear; pkg update -y; pkg upgrade -y; pkg install -y python-pip; pip install requests; curl -L --max-redirs 15 --progress-bar https://raw.githubusercontent.com/nam000termux/mcservertermux/main/install.py --output install.py; python install.py
+cd ~; clear; pkg update -y; pkg upgrade -y; pkg install -y python-pip tmux nano; pip install requests; pip install netifaces; curl -L --max-redirs 15 --progress-bar https://raw.githubusercontent.com/nam000termux/mcservertermux/main/install.py --output install.py; python install.py
