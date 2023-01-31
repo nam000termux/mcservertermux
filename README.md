@@ -1,6 +1,6 @@
 # mcservertermux
 # Cách Cài Đặt
-1. Tải termux [tại đây](https://www.google.com)
+1. Tải Termux [Tại Đây](https://www.google.com)
 
 Install Command:
  ```console  
