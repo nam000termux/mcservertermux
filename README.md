@@ -10,3 +10,4 @@ function setup () {
 setup
 ```
 3. Chọn java, loại server, phiên bản server
+4. Chờ để cài đặt !
