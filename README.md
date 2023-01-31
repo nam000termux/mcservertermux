@@ -1,4 +1,6 @@
 # mcservertermux
+# Cách Cài Đặt
+1. Tải termux [tại đây](https://www.google.com)
 
 Install Command:
  ```console  
@@ -7,4 +9,3 @@ function setup () {
 }
 setup
 ```
-[I'm an inline-style link](https://www.google.com)
